@@ -1,0 +1,21 @@
+[project]
+name = "resume-shortlisting"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]>=0.115.8",
+    "instructor>=1.7.2",
+    "litellm>=1.61.6",
+    "llama-cloud-services>=0.6.1",
+    "llama-index-core>=0.12.18",
+    "llama-index-readers-file>=0.4.5",
+    "openai>=1.63.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "pydantic>=2.10.6",
+    "python-dotenv>=1.0.1",
+    "python-multipart>=0.0.20",
+    "uvicorn>=0.34.0",
+]
